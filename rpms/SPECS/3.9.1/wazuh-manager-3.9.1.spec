@@ -568,7 +568,7 @@ rm -fr %{buildroot}
 %attr(750, root, ossec) %{_localstatedir}/ossec/api/configuration/uwsgi.yaml
 %attr(750, root, ossec) %{_localstatedir}/ossec/api/configuration/template-api.yaml
 %dir %attr(750, root, ossec) %{_localstatedir}/ossec/api/scripts
-%attr(750, root, ossec) %{_localstatedir}/ossec/api/scripts/wazuh-apid.py.yaml
+%attr(750, root, ossec) %{_localstatedir}/ossec/api/scripts/wazuh-apid.py
 %dir %attr(770, ossec, ossec) %{_localstatedir}/ossec/etc
 %attr(640, root, ossec) %config(noreplace) %{_localstatedir}/ossec/etc/ossec.conf
 %attr(640, root, ossec) %config(noreplace) %{_localstatedir}/ossec/etc/client.keys
