@@ -482,7 +482,6 @@ rm -fr %{buildroot}
 %attr(640,root,ossec) %config(noreplace) %{_localstatedir}/ossec/etc/client.keys
 %attr(640,root,ossec) %{_localstatedir}/ossec/etc/internal_options*
 %attr(640,root,ossec) %{_localstatedir}/ossec/etc/localtime
-%attr(640,root,ossec) %config(noreplace) %{_localstatedir}/ossec/etc/local_internal_options.conf
 %attr(660,root,ossec) %config(noreplace) %{_localstatedir}/ossec/etc/ossec.conf
 %{_localstatedir}/ossec/etc/ossec-init.conf
 %attr(640,root,ossec) %{_localstatedir}/ossec/etc/wpk_root.pem
